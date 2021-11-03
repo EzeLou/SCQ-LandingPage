@@ -2249,8 +2249,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1913ee;
-  border-color: #1610e5;
+  background-color: #cab8da;
+  border-color: #cab8da;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2266,7 +2266,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #1610e5;
+  background-color: #cab8da;
   border-color: #150fd9;
 }
 
@@ -4697,7 +4697,7 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #1610e5;
+  background-color: #cab8da;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6158,7 +6158,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #1610e5 !important;
+  background-color: #cab8da !important;
 }
 
 .bg-secondary {
@@ -9643,6 +9643,9 @@ input:focus {
   outline: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
 @font-face {
   font-family: 'Rubik';
   src: url("../fonts/Rubik/Rubik-Black.eot.eot");
@@ -9682,11 +9685,13 @@ input:focus {
   font-weight: 400;
   font-style: normal;
 }
+*/
 
 /* Typography */
 body {
   font-size: 0.937rem;
-  font-family: "Rubik", sans-serif;
+  /*font-family: "Rubik", sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   font-weight: initial;
   line-height: normal;
   -webkit-font-smoothing: antialiased;
@@ -9820,7 +9825,7 @@ h6, .h6 {
 }
 
 .footer .footer-top {
-  padding: 74px 0;
+  padding: 2rem 0;
 }
 
 .footer .footer-top .footer-title {
@@ -9921,6 +9926,7 @@ h6, .h6 {
   }
 }
 
+/*
 .navbar .navbar-nav .nav-item:last-child {
   margin-right: 0;
   margin-left: 1rem;
@@ -9931,6 +9937,7 @@ h6, .h6 {
     margin-left: 0;
   }
 }
+*/
 
 .navbar .navbar-nav .nav-item .nav-link {
   color: #fff;
@@ -9966,10 +9973,12 @@ h6, .h6 {
   border-radius: 50px;
 }
 
+/*
 .navbar .navbar-nav .nav-item:last-child .nav-link.active {
   background: #00d663;
   border-radius: 50px;
 }
+*/
 
 .navbar .navbar-toggler {
   color: #ffffff;
@@ -10145,8 +10154,8 @@ section {
 }
 
 .testimonial {
-  background: #a70ff6 url("../images/testimonial-bg.svg");
-  padding: 100px 0 70px 0;
+  background: #cab8da url("../images/testimonial-bg.svg");
+  padding: 4rem 0 70px 0;
   background-size: cover;
 }
 
