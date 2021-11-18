@@ -9828,6 +9828,7 @@ h6, .h6 {
 .footer .footer-link {
   /*color: #e5e5e5;*/
   color: #000;
+  text-decoration: underline;
 }
 
 .footer-social{
@@ -9951,7 +9952,7 @@ h6, .h6 {
 */
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: #000;
   font-size: 0.937rem;
   font-weight: 500;
   padding: 0.625rem 1.25rem;
@@ -9976,7 +9977,7 @@ h6, .h6 {
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 50px;
 }
 
@@ -9992,7 +9993,7 @@ h6, .h6 {
 */
 
 .navbar .navbar-toggler {
-  color: #ffffff;
+  color: #000000;
 }
 
 .navbar .navbar-toggler-icon {
