@@ -2247,7 +2247,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #6C7293;
   background-color: #ffd650;
   border-color: #ffd650;
 }
@@ -9814,6 +9814,7 @@ h6, .h6 {
   font-size: 13px;
 }
 
+
 .footer {
   color: #e5e5e5;
   background: #ffd650 url(../images/footer_bg.svg);
@@ -9828,7 +9829,6 @@ h6, .h6 {
 .footer .footer-link {
   /*color: #e5e5e5;*/
   color: #000;
-  text-decoration: underline;
 }
 
 .footer-social{
@@ -9838,12 +9838,15 @@ h6, .h6 {
 
 .footer .footer-top {
   padding: 2rem 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .footer .footer-top .footer-title {
   font-size: 1rem;
   font-weight: 500;
-  margin-bottom: .875rem;
+  /*margin-bottom: .875rem;*/
 }
 
 .footer .footer-top .social-icons {
