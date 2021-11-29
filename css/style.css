@@ -41,7 +41,7 @@
   --gray-light: #aab2bd;
   --gray-lighter: #e8eff4;
   --gray-lightest: #e6e9ed;
-  --black: #000000;
+  --black: #0000000;
   --primary: #ffd650;
   --secondary: #1998ff;
   --success: #00d663;
@@ -49,7 +49,7 @@
   --warning: #ffe671;
   --danger: #ff696d;
   --light: #506690;
-  --dark: #000000;
+  --dark: #0000000;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -82,7 +82,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c7293;
+  color: #000000;
   text-align: left;
   background-color: #fff;
 }
@@ -2208,7 +2208,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #6c7293;
+  color: #000000;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2228,7 +2228,7 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #6c7293;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -2247,7 +2247,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #6C7293;
+  color: #000000;
   background-color: #ffd650;
   border-color: #ffd650;
 }
@@ -2486,8 +2486,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #0000000;
+  border-color: #0000000;
 }
 
 .btn-dark:hover {
@@ -2502,8 +2502,8 @@ fieldset:disabled a.btn {
 
 .btn-dark.disabled, .btn-dark:disabled {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #0000000;
+  border-color: #0000000;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
@@ -2743,14 +2743,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #000000;
-  border-color: #000000;
+  color: #0000000;
+  border-color: #0000000;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #0000000;
+  border-color: #0000000;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
@@ -2758,15 +2758,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #000000;
+  color: #0000000;
   background-color: transparent;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #0000000;
+  border-color: #0000000;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
@@ -4802,7 +4802,7 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #000000;
+  background-color: #0000000;
 }
 
 a.badge-dark:hover, a.badge-dark:focus {
@@ -6227,7 +6227,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #000000 !important;
+  background-color: #0000000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6313,7 +6313,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #000000 !important;
+  border-color: #0000000 !important;
 }
 
 .border-white {
@@ -9386,7 +9386,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #000000 !important;
+  color: #0000000 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -9394,7 +9394,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #6c7293 !important;
+  color: #000000 !important;
 }
 
 .text-muted {
@@ -9709,9 +9709,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 p {
-  font-size: 0.937rem;
+  font-size: 1.1rem;
   margin-bottom: .5rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 h1, .h1 {
@@ -9865,7 +9865,7 @@ h6, .h6 {
 }
 
 .footer .footer-top .social-icons a:hover i {
-  color: #000000;
+  color: #0000000;
 }
 
 .footer .footer-bottom {
@@ -9996,7 +9996,7 @@ h6, .h6 {
 */
 
 .navbar .navbar-toggler {
-  color: #000000;
+  color: #0000000;
 }
 
 .navbar .navbar-toggler-icon {
@@ -10024,13 +10024,13 @@ h6, .h6 {
     width: 120px;
   }
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #000000;
+    color: #0000000;
   }
 }
 
 @media (max-width: 991px) and (max-width: 991px) {
   .navbar .navbar-collapse .close-menu {
-    color: #000000;
+    color: #0000000;
     padding: 2px 4px;
     background: transparent;
     display: inline-block;
@@ -10184,7 +10184,7 @@ section {
   width: 450px;
   padding: 34px 34px 34px 94px;
   background: #ffffff;
-  color: #000000;
+  color: #0000000;
   border-radius: 10px;
   position: relative;
   box-shadow: 0 20px 70px -10px rgba(109, 121, 141, 0.15);
@@ -10264,7 +10264,7 @@ section {
 }
 
 .pricing-box .title-text {
-  color: #000000;
+  color: #0000000;
 }
 
 .pricing-box .text-amount {
@@ -10377,7 +10377,7 @@ section {
 }
 
 .text-active {
-  color: #000000;
+  color: #0000000;
 }
 
 /* Rounded sliders */
