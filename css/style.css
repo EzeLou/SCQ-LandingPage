@@ -9694,7 +9694,7 @@ input:focus {
 
 /* Typography */
 body {
-  font-size: 0.937rem;
+  font-size: 0.9rem;
   /*font-family: "Rubik", sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   font-weight: initial;
@@ -9811,7 +9811,7 @@ h6, .h6 {
 }
 
 .text-small {
-  font-size: 13px;
+  font-size: 0.9rem;
 }
 
 
@@ -9956,7 +9956,7 @@ h6, .h6 {
 
 .navbar .navbar-nav .nav-item .nav-link {
   color: #000;
-  font-size: 0.937rem;
+  font-size: 0.9rem;
   font-weight: 500;
   padding: 0.625rem 1.25rem;
   -webkit-transition: all 1s;
