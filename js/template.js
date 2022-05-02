@@ -4,17 +4,17 @@
 		$('.owl-carousel-projects').owlCarousel({
 			loop: true,
 			stagePadding: 100,
-			margin: 20,
+			margin: 5,
 			nav: false,
 			responsive: {
-				0: {
-					items: 2
+				1: {
+					items: 1
 				},
 				600: {
-					items: 3
+					items: 1
 				},
 				1000: {
-					items: 4
+					items: 2
 				}
 			}
 		})
