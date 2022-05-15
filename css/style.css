@@ -10146,17 +10146,17 @@ section {
   }
 }
 
-.services-box {
+.beneficios-box {
   padding: 10px 100px 40px 0;
 }
 
 @media (max-width: 991px) {
-  .services-box {
+  .beneficios-box {
     padding: 10px 10px 40px 0;
   }
 }
 
-.services-box:hover img {
+.beneficios-box:hover img {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
