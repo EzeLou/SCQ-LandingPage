@@ -1,8 +1,6 @@
 @import url(animations.css);
 
 
-
-
 /*-------------------------------------------------------------------*/
 /* === Boostrap Main SCSS === */
 /*!
@@ -9690,6 +9688,10 @@ input:focus {
   font-style: normal;
 }
 */
+
+#about{
+  padding: 0rem 0 0.1rem 0;
+}
 
 /* Typography */
 body {
