@@ -690,9 +690,15 @@
 								-->
 							<div class="col-sm-12">
 
-								<input class="btn btn-primary" type="button" value="Enviar" id="sendBTN" disabled="disabled">
+
+								<button id="sendBTN" class="btn btn-primary" type="submit" disabled="disabled">Enviar</button>
 								<div class="g-recaptcha" data-sitekey="6Le2QoMgAAAAALlJsraHN1AYU34uHRC6erYhQ86D" data-callback="enableBtn"></div>
 
+								<!--
+								<input class="btn btn-primary" type="button" value="Enviar" id="sendBTN" disabled="disabled">
+								<div class="g-recaptcha" data-sitekey="6Le2QoMgAAAAALlJsraHN1AYU34uHRC6erYhQ86D" data-callback="enableBtn"></div>
+								-->	
+								
 								<!--
 								<a href="#" class="btn btn-primary">Enviar</a>
 								-->
@@ -700,7 +706,7 @@
 
 							<script>
 								function enableBtn() {
-									document.getElementById("sendBTN").disabled = false;
+									document.getElementById("button1").disabled = false;
 								}
 							</script>
 
